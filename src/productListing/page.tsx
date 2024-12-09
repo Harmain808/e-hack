@@ -1,8 +1,8 @@
 
-import Card from "@/app/components/Card";
-import FilterBar from "@/app/components/FilterBar";
 import Footer from "@/app/components/footer";
 import Header from "@/app/components/header";
+import { Card } from "@/components/ui/card";
+
 
 
 
@@ -85,7 +85,7 @@ const Products = () => {
   return (
     <main>
       <Header />
-<FilterBar/>
+
 
     <div className="container mx-auto px-4 py-8 flex flex-col items-center justify-center">
       <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
