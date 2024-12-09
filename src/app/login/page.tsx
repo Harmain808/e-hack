@@ -1,3 +1,4 @@
+import React from "react";
 const UnderConstruction = () => {
     return (
       <div className="flex flex-col justify-center items-center h-screen w-full bg-gray-100 px-4 text-center">

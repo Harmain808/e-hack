@@ -48,9 +48,10 @@ const Header = () => {
                <Button variant={"outline"} size={"sm"}>
                 Home
               </Button>
-             <h1> <Link href={'/about'} className= "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80">About</Link>
-             </h1>
               </ul>
+              <nav className="hidden md:flex items-center gap-12">
+              <Link href={"./about"} className="text-[16px] leading-[24px] hover:text-gray-800">About</Link>
+             </nav>
                </div>
          </div>
       </header>
