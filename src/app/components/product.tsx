@@ -13,7 +13,7 @@ const Product = () => {
   return (
     <>
       <section>
-        <div className='px-8 py-12 text-[#2A254B] mt-12'>
+        <div className='px-8 py-12 text-black mt-12'>
           <h1 className='text-2xl'>Our popular products</h1>
 
           <div className='flex flex-col md:flex-row gap-8 mt-8'>
@@ -27,7 +27,7 @@ const Product = () => {
                 alt='sofa'
                 className='w-full h-[80%] object-cover transition-transform duration-300 ease-in-out group-hover:scale-105'
               />
-              <div className='mt-4 text-[#2A254B]'>
+              <div className='mt-4 text-black'>
                 <p className='py-2'>The popular suede sofa</p>
                 <p>$980</p>
               </div>
@@ -41,7 +41,7 @@ const Product = () => {
                 alt='chair'
                 className='w-full h-[80%] object-cover transition-transform duration-300 ease-in-out group-hover:scale-105'
               />
-              <div className='mt-4 text-[#2A254B]'>
+              <div className='mt-4 text-black'>
                 <p className='py-2'>The Dandy chair</p>
                 <p>$250</p>
               </div>
@@ -55,7 +55,7 @@ const Product = () => {
                 alt='chair'
                 className='w-full h-[80%] object-cover transition-transform duration-300 ease-in-out group-hover:scale-105'
               />
-              <div className='mt-4 text-[#2A254B]'>
+              <div className='mt-4 text-black'>
                 <p className='py-2'>The Dandy chair</p>
                 <p>$250</p>
               </div>
@@ -64,7 +64,7 @@ const Product = () => {
           </div>
 
           <div className='my-10 flex justify-center items-center'>
-            <button className='bg-[#F9F9F9] py-4 px-6 rounded-[5px] text-[#2A254B]' onClick={handleNavigation}>
+            <button className='bg-[#F9F9F9] py-4 px-6 rounded-[5px] text-black' onClick={handleNavigation}>
               View products
             </button>
           </div>

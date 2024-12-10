@@ -5,7 +5,7 @@ const Cart = () => {
   return (
     <>
     <Navbar /><div>
-      <div className="bg-gray-200 w-full px-4 sm:px-10 lg:px-40 pt-10 pb-16 h-auto text-custom-purple">
+      <div className="bg-gray-200 w-full px-4 sm:px-10 lg:px-40 pt-10 pb-16 h-auto text-custom-black">
         <h1 className="text-2xl sm:text-3xl text-center lg:text-left">
           Your Shopping Cart
         </h1>
@@ -77,7 +77,7 @@ const Cart = () => {
           <p className="text-sm mt-4">
             Taxes and shipping are calculated at checkout
           </p>
-          <button className="bg-custom-purple h-12 sm:h-14 mt-6 w-full sm:w-56 rounded-sm text-white">
+          <button className="bg-custom-purple h-12 sm:h-14 mt-6 w-full sm:w-56 rounded-sm text-black">
             Go to checkout
           </button>
         </div>

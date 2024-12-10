@@ -5,7 +5,7 @@ const Brand = () => {
   return (
     <>
       <section>
-        <div className="px-4 md:px-8 py-12 text-[#2A254B] mt-12">
+        <div className="px-4 md:px-8 py-12 text-black mt-12">
     
           <h1 className="text-center text-xl md:text-2xl font-semibold">
             What makes our brand different

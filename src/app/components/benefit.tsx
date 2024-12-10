@@ -4,7 +4,7 @@ const Benefit = () => {
   return (
     <>
       <section>
-        <div className='py-12 bg-[#F9F9F9] text-[#2A254B] mt-12'>
+        <div className='py-12 bg-[#F9F9F9] text-black mt-12'>
           <div className='w-full max-w-[640px] md:max-w-[1340px] h-[350px] bg-white mx-auto flex justify-center items-center flex-col px-4'>
             <h1 className='text-2xl md:text-4xl text-center'>
               Join the club and get the benefits

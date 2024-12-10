@@ -49,7 +49,7 @@ const Footer = () => {
                 placeholder="your@email.com"
                 className="md:w-[509px] h-[56px] outline-none bg-[#FFFFFF26] pb-1 w-[70%] pl-4 "
               />
-              <button className="text-[#2A254B] w-[30%] md:w-[118px] h-[56px]  bg-[#FFFFFF] ">
+              <button className="text-black w-[30%] md:w-[118px] h-[56px]  bg-[#FFFFFF] ">
                 Sign up
               </button>
             </div>
@@ -60,7 +60,7 @@ const Footer = () => {
           <p className="text-sm satoshi justify-self-center md:pr-5">
             &copy; Copyright 2022 Avion LTD
           </p>
-          <div className="md:flex justify-center space-x-4 text-2xl hidden">
+          <div className="md:flex justify-center space-x-4 text-2xl">
           <a className="" href="https://www.facebook.com/"><Image src="/facebook1.svg" alt="facebook" width={24} height={24}/> </a>
             <a className="" href="https://www.instagram.com/"><Image src="/insta.svg" alt="Instagram" width={24} height={24}/></a>
             <a className="" href="https://twitter.com/"><Image src="/twit.svg" alt="Twitter" width={24} height={24}/></a>

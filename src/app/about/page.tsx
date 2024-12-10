@@ -1,9 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 const about = () => {
   return (
     <div>
+      <Header />
       <div className="w-full h-auto flex flex-col md:flex-row justify-between items-center px-4 md:px-16 py-8">
         <div className="md:w-2/4 text-xl md:text-2xl text-center md:text-left text-custom-purple">
           A brand built on the love of craftsmanship, quality, and outstanding customer service
@@ -16,12 +19,12 @@ const about = () => {
       </div>
 
       <div className="flex flex-col md:flex-row w-full h-auto items-center justify-around px-4 py-16">
-        <div className="bg-custom-purple w-full md:w-2/5 text-white p-8 md:p-16 mb-8 md:mb-0">
+        <div className="bg-custom-purple w-full md:w-2/5 text-black p-8 md:p-16 mb-8 md:mb-0">
           <h1 className="text-xl md:text-2xl">It started with a small idea</h1>
           <p className="mt-6">
             A global brand with local beginnings, our story began in a small studio in South London in early 2014.
           </p>
-          <button className="bg-input-bg h-12 w-40 rounded-sm mt-10 text-white">
+          <button className="bg-input-bg h-12 w-40 rounded-sm mt-10 text-black">
             View Collection
           </button>
         </div>
@@ -50,7 +53,7 @@ const about = () => {
             mass market. Handmade, and lovingly crafted furniture and homeware is what we live, breathe, and design so
             our Chelsea boutique became the hotbed for the London interior design community.
           </p>
-          <button className="bg-white h-12 w-40 rounded-sm mt-10 text-custom-purple">Get in Touch</button>
+          <button className="bg-black h-12 w-40 rounded-sm mt-10 text-white">Get in Touch</button>
         </div>
       </div>
 
@@ -107,10 +110,11 @@ const about = () => {
               placeholder="you@gmail.com"
               className="bg-gray-100 w-80 h-12 p-5 rounded-sm"
             />
-            <button className="bg-custom-purple h-12 w-32 rounded-sm text-white">Sign Up</button>
+            <button className="bg-custom-purple h-12 w-32 rounded-sm text-black">Sign Up</button>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

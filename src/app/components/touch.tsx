@@ -5,7 +5,7 @@ const Touch = () => {
   return (
     <>
       <section>
-        <div className="py-12 text-[#2A254B] mt-12">
+        <div className="py-12 text-black mt-12">
           <div className="flex flex-col md:flex-row">
             <div className="w-full md:w-[720px] h-auto px-4 md:px-12 py-8 flex flex-col justify-between">
               <div>
@@ -23,7 +23,7 @@ const Touch = () => {
                 </h1>
               </div>
               <div className="my-10">
-                <button className="bg-[#F9F9F9] py-4 px-4 rounded-[5px] text-[#2A254B]">
+                <button className="bg-black py-4 px-4 rounded-[5px] text-white">
                   Get in touch
                 </button>
               </div>
