@@ -60,12 +60,12 @@ const Footer = () => {
             &copy; Copyright 2022 Avion LTD
           </p>
           <div className="md:flex justify-center space-x-4 text-2xl">
-          <a className="" href="https://www.facebook.com/"><img src="/Facebook.svg" alt="facebook" width={24} height={24}/> </a>
-            <a className="" href="https://www.instagram.com/"><img src="/Instagram.svg" alt="Instagram" width={24} height={24}/></a>
-            <a className="" href="https://twitter.com/"><img src="/Twitter.svg" alt="Twitter" width={24} height={24}/></a>
-            <a className="" href="https://pk.linkedin.com/"><img src="/Linkedin.svg" alt="Linkedin" width={24} height={24}/></a>
-            <a className="" href="https://web.skype.com/"><img src="/skype.svg" alt="skype" width={24} height={24}/></a>
-            <a className="" href="https://www.pinterest.com/"><img src="/pin.svg" alt="pin" width={24} height={24}/></a>
+          <a className="" href="https://www.facebook.com/"><img src="/Facebook.svg" alt="facebook" width={30} height={30}/> </a>
+            <a className="" href="https://www.instagram.com/"><img src="/Instagram.svg" alt="Instagram" width={30} height={30}/></a>
+            <a className="" href="https://twitter.com/"><img src="/Twitter.svg" alt="Twitter" width={30} height={30}/></a>
+            <a className="" href="https://pk.linkedin.com/"><img src="/Linkedin.svg" alt="Linkedin" width={30} height={30}/></a>
+            <a className="" href="https://web.skype.com/"><img src="/sk.svg" alt="skype" width={30} height={30}/></a>
+            <a className="" href="https://www.pinterest.com/"><img src="/pint.svg" alt="pin" width={30} height={30}/></a>
           </div>
         </div>
       </footer>
