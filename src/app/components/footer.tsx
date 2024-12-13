@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 const Footer = () => {
     return (
       <footer className="max-w-[1440px] md:h-[380px] mx-auto bg-[#2A254B] text-white md:pt-10 pt-8 gap-5">
@@ -61,12 +60,12 @@ const Footer = () => {
             &copy; Copyright 2022 Avion LTD
           </p>
           <div className="md:flex justify-center space-x-4 text-2xl">
-          <a className="" href="https://www.facebook.com/"><Image src="/facebook1.svg" alt="facebook" width={24} height={24}/> </a>
-            <a className="" href="https://www.instagram.com/"><Image src="/insta.svg" alt="Instagram" width={24} height={24}/></a>
-            <a className="" href="https://twitter.com/"><Image src="/twit.svg" alt="Twitter" width={24} height={24}/></a>
-            <a className="" href="https://pk.linkedin.com/"><Image src="/link.svg" alt="Linkedin" width={24} height={24}/></a>
-            <a className="" href="https://web.skype.com/"><Image src="/skype.svg" alt="Twitter" width={24} height={24}/></a>
-            <a className="" href="https://www.pinterest.com/"><Image src="/pin.svg" alt="Linkedin" width={24} height={24}/></a>
+          <a className="" href="https://www.facebook.com/"><img src="/Facebook.svg" alt="facebook" width={24} height={24}/> </a>
+            <a className="" href="https://www.instagram.com/"><img src="/Instagram.svg" alt="Instagram" width={24} height={24}/></a>
+            <a className="" href="https://twitter.com/"><img src="/Twitter.svg" alt="Twitter" width={24} height={24}/></a>
+            <a className="" href="https://pk.linkedin.com/"><img src="/Linkedin.svg" alt="Linkedin" width={24} height={24}/></a>
+            <a className="" href="https://web.skype.com/"><img src="/skype.svg" alt="skype" width={24} height={24}/></a>
+            <a className="" href="https://www.pinterest.com/"><img src="/pin.svg" alt="pin" width={24} height={24}/></a>
           </div>
         </div>
       </footer>

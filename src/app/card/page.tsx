@@ -1,9 +1,12 @@
 import React from "react";
 import Navbar from "@/app/components/navbar";
+import Footer from "../components/footer";
+import Header from "../components/header";
 
 const Cart = () => {
   return (
     <>
+    <Header />
     <Navbar /><div>
       <div className="bg-gray-200 w-full px-4 sm:px-10 lg:px-40 pt-10 pb-16 h-auto text-custom-black">
         <h1 className="text-2xl sm:text-3xl text-center lg:text-left">
@@ -82,6 +85,7 @@ const Cart = () => {
           </button>
         </div>
       </div>
+      <Footer />
     </div></>
   );
 };
